@@ -1,4 +1,4 @@
-Criei uma camera com 10 linhas de codigo
+Criei uma camera com 3 linhas de codigo
 No Javasript
 
 ____________________
