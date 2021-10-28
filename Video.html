@@ -1,10 +1,3 @@
-<html><title>Video</title>
-<body> <video autoplay></video> </body>
-<script>
-     var video = document.querySelector('video');
-    navigator.mediaDevices.getUserMedia({video:true}).then(camera => {
-        video.srcObject = camera;
-        video.play();
-    })  
-</script>
-</html>
+<html><video><script>video = document.querySelector('video');
+navigator.mediaDevices.getUserMedia({video:true}).then(camera => { 
+video.srcObject = camera;  video.play();  })  </script></html>
